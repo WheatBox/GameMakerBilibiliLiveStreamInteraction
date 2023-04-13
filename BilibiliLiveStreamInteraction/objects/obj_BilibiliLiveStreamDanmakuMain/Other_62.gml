@@ -5,7 +5,7 @@ if(async_load[? "id"] == httpId) {
 		
 		var arrNewDanmaku = [];
 		
-		var arrDanmaku = BlsDanmakuMergeArray(sourceDanmakuData.data.room, sourceDanmakuData.data.admin);
+		var arrDanmaku = sourceDanmakuData.data.room;
 		
 		if(newestDanmaku != undefined) {
 			var i, len = array_length(arrDanmaku);
@@ -31,7 +31,7 @@ if(async_load[? "id"] == httpId) {
 		var lenNew = array_length(arrNewDanmaku);
 		if(lenNew > 0) {
 			for(var i = 0; i < lenNew; i++) {
-				show_debug_message("{0} {1} : {2}", arrNewDanmaku[i].timeline, arrNewDanmaku[i].nickname, arrNewDanmaku[i].text);
+				MyBusiness(arrNewDanmaku[i]);
 			}
 			
 			newestDanmaku = array_last(arrDanmaku);
