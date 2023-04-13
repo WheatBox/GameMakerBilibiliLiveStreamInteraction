@@ -1,1 +1,1 @@
-"# GameMakerBilibiliLiveStreamInteraction" 
+# GameMakerBilibiliLiveStreamInteraction
