@@ -103,7 +103,8 @@ def api_danmu():
             return_list.append({'cmd': danmu['cmd'],
                                 'uid': danmu['data']['uid'],
                                 'uname': danmu['data']['uname'],
-                                'price': danmu['data']['price'] * danmu['data']['num'],
+                                'price': danmu['data']['price'],
+                                'num': danmu['data']['num'],
                                 'giftId': danmu['data']['giftId'],
                                 'giftName': danmu['data']['giftName']
                                 })
