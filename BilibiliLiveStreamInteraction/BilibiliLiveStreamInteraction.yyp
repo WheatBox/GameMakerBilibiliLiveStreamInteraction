@@ -34,9 +34,11 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
-    {"id":{"name":"BilibiliLiveStreamMessageStream","path":"scripts/BilibiliLiveStreamMessageStream/BilibiliLiveStreamMessageStream.yy",},},
+    {"id":{"name":"obj_BilibiliLiveStreamGiftsDataMain","path":"objects/obj_BilibiliLiveStreamGiftsDataMain/obj_BilibiliLiveStreamGiftsDataMain.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"BilibiliLiveStreamDanmaku","path":"scripts/BilibiliLiveStreamDanmaku/BilibiliLiveStreamDanmaku.yy",},},
     {"id":{"name":"obj_BilibiliLiveStreamDanmakuMain","path":"objects/obj_BilibiliLiveStreamDanmakuMain/obj_BilibiliLiveStreamDanmakuMain.yy",},},
+    {"id":{"name":"BilibiliLiveStreamGiftsData","path":"scripts/BilibiliLiveStreamGiftsData/BilibiliLiveStreamGiftsData.yy",},},
     {"id":{"name":"obj_BilibiliLiveStreamMessageStreamMain","path":"objects/obj_BilibiliLiveStreamMessageStreamMain/obj_BilibiliLiveStreamMessageStreamMain.yy",},},
     {"id":{"name":"BilibiliLiveStreamTimeline","path":"scripts/BilibiliLiveStreamTimeline/BilibiliLiveStreamTimeline.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

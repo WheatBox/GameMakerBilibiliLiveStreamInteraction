@@ -9,6 +9,9 @@ if(async_load[? "id"] == httpId) {
 				case "DANMU_MSG":
 					MyBusiness_DANMU_MSG(sourceDanmakuData.data[i]);
 					break;
+				case "SEND_GIFT":
+					MyBusiness_SEND_GIFT(sourceDanmakuData.data[i]);
+					break;
 			}
 		}
 	} else {

@@ -17,8 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"BilibiliLiveStreamMessageStream","order":2,"path":"scripts/BilibiliLiveStreamMessageStream/BilibiliLiveStreamMessageStream.yy",},
+    {"name":"obj_BilibiliLiveStreamGiftsDataMain","order":2,"path":"objects/obj_BilibiliLiveStreamGiftsDataMain/obj_BilibiliLiveStreamGiftsDataMain.yy",},
+    {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
     {"name":"BilibiliLiveStreamDanmaku","order":1,"path":"scripts/BilibiliLiveStreamDanmaku/BilibiliLiveStreamDanmaku.yy",},
+    {"name":"BilibiliLiveStreamGiftsData","order":4,"path":"scripts/BilibiliLiveStreamGiftsData/BilibiliLiveStreamGiftsData.yy",},
     {"name":"obj_BilibiliLiveStreamMessageStreamMain","order":1,"path":"objects/obj_BilibiliLiveStreamMessageStreamMain/obj_BilibiliLiveStreamMessageStreamMain.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"HEX_DEC","order":3,"path":"scripts/HEX_DEC/HEX_DEC.yy",},
