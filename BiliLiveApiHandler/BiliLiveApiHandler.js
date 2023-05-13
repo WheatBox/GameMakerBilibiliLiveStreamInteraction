@@ -1,5 +1,11 @@
 // B站直播API：https://github.com/lovelyyoshino/Bilibili-Live-API
 
+/* ------------------------ */
+// 在此处设定房间号
+const ROOMID = 960890;
+
+/* ------------------------ */
+
 const WebSocket = require('ws');
 const pako = require('pako');
 
@@ -86,10 +92,10 @@ const decode = function (blob) {
 	});
 }
 
-const ws = new WebSocket('wss://broadcastlv.chat.bilibili.com:2245/sub');
+const ws = new WebSocket('wss://broadcastlv.chat.bilibili.com/sub');
 ws.onopen = function () {
 	ws.send(encode(JSON.stringify({
-		roomid: 960890
+		roomid: ROOMID
 	}), 7));
 };
 
