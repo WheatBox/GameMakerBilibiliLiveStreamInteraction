@@ -1,6 +1,6 @@
-/// @desc 需要搭配该项目文件夹下的 BiliLiveStreamApi.py 文件来使用
+/// @desc 需要搭配该项目文件夹下的 BiliLiveApiHandler 来使用
 
-apiUrl = "http://127.0.0.1:18080/api/danmu";
+apiUrl = "http://127.0.0.1:42333";
 httpId = http_get(apiUrl);
 
 danmakuGetCdMax = 0.5 * game_get_speed(gamespeed_fps); // 0.5秒获取一次
